@@ -1,0 +1,21 @@
+body{
+    background-color: #333333;
+   color: white;
+   font-family:"Times new roman", Arial, Cosmic;
+   }
+
+h1{
+   color: cornflowerblue;  
+}
+
+h2{
+   color: cornflowerblue;
+}
+a:visited{
+    color: #cc0000;
+}
+.stron{
+    color:  #ffff00;
+}
+
+
