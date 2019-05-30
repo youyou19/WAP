@@ -1,13 +1,13 @@
 
 body{
-    background-image:url("images/background.png");
+    background-image:url("images1/background.png");
     font-size: 8pt;
     font-family: Verdana, Tahoma, sans-serif ;
     margin: 0px;
     padding: 0px;
 }
 .banner {
-    background-image: url(images/bannerbg.png);
+    background-image: url(images1/bannerbg.png);
     background-repeat: repeat-x;
     height: 50px;
     text-align: center;
@@ -51,7 +51,7 @@ dd, li {
     width: 550px;
 }
 #ratingheader {
-    background-image: url(images/rbg.png);
+    background-image: url(images1/rbg.png);
     height: 83px;
     text-align: left;
     font-weight: bold;
