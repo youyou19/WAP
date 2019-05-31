@@ -34,11 +34,37 @@
  .Menu{
 	 list-style-image:url(images/pie_icon.gif);
  }
- .blockquote{
+ 
+ a:link {
+    color:  #A4A400;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+blockquote{
 	 background-color:#FFFFA8;
 	 font-style:italic;
- }
+}
+.lolo{
+	float: right;
+    text-align: right;
+}
  #end{
 	 float:right;
 	 text-align:right;
  }
+ 
