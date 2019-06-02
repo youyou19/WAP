@@ -81,8 +81,8 @@ dd, li {
     background-color: #E8DC9B;
     border: 2px solid gray;
     border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+    moz-border-radius: 10px;
+    webkit-border-radius: 10px;
     padding: 8px;
     margin: 8px;
     overflow: auto;
