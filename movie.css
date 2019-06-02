@@ -36,19 +36,26 @@ h1{
     background-color: #A2B964;
 }
    dl {
-    font-weight: bold;
+    
     margin-top: 0px;
     margin-left: 10px;
 }
 dt {
+	font-weight:bold;
     margin-top: 10px;
 }
 dd, li {
+	 
+	 font-weight:none;
     line-height: 10pt;
 }
 #left {
+	
     float: left;
     width: 550px;
+}
+.lang{
+	float:left;
 }
 #ratingheader {
     background-image: url(images1/rbg.png);
@@ -104,6 +111,11 @@ q {
 }
 #end{
     float: right;
+	position:fixed;
+	bottom:0;
+	right:0;
+	opacity:0.5;
+	
 }
 
 
