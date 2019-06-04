@@ -1,0 +1,54 @@
+/* 
+    Created on : Dec 10, 2018, 7:58:31 PM
+    Author     : DARIMATHE
+*/
+body{
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:#CCCCFF;
+    font-family: sans-serif;
+    font-size: 14pt;
+   
+}
+fieldset{
+     border: 5px solid black;
+     display: inline;
+}
+legend {
+   text-align: left;
+}
+
+button{
+    width: 47%;
+}
+
+header{
+    font-size: 32pt;
+    font-weight: bold;
+    margin:0px;
+    
+}
+select{
+    width:98%;
+}
+#validateLinks{
+    right:0px;
+    position: fixed;
+}
+.tarea
+{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#text_area{
+    font-family: monospace;
+    font-size: 12pt;
+	width: 90%;
+        height: 400px;
+}
+
+
+
