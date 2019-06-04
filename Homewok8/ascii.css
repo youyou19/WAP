@@ -1,6 +1,6 @@
 /* 
-    Created on : Dec 10, 2018, 7:58:31 PM
-    Author     : DARIMATHE
+    Created on : June 04, 2019, 7:58:31 PM
+    Author     : Jules
 */
 body{
     font-weight: bold;
@@ -50,5 +50,12 @@ select{
         height: 400px;
 }
 
-
+#end{
+    float: right;
+	position:fixed;
+	bottom:0;
+	right:0;
+	opacity:0.5;
+	
+}
 
