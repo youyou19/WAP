@@ -4,10 +4,10 @@ window.onload=pageLoad;
 
 function pageLoad() {
          
-    document.getElementById("te").onclick = blingText;
+    document.getElementById("bling").onclick = blingText;
 }
  function blingText() {
-    if (document.getElementById("te").checked) {
+    if (document.getElementById("bling").checked) {
         document.body.style.backgroundImage = 'url("http://www.cs.washington.edu/education/courses/190m/CurrentQtr/labs/6/hundred-dollar-bill.jpg")';
         document.getElementById("text").className = "blingtext";
     } else {
