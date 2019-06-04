@@ -1,131 +1,26 @@
+
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html lang="en">
+<html>
     <head>
-        <title>New User Sinup </title>
+        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <link href="formstyle.css" type="text/css" rel="stylesheet" />
-        <link href="images1/heart.gif" type="image/gif" rel="icon"/>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="form.css" rel="stylesheet"/> 
+        <script src="form.js" type="text/javascript"></script>
+     
     </head>
     <body>
-        <img src="images1/nerdluv.png" alt=""/><br/>
-        where meek geeks meet
-            <form action="signup.php">
-                <fieldset class="signup"> 
-                   <legend>New User Sign Up</legend>
-                <table>                  
-                        
-                    <tr>
-                        <td class="right"> 
-                            <label>Name:</label>
-                        </td>
-                        <td> 
-                            <input type="text" name ="inName" size="16" maxlength="50"/>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td class="right"> 
-                            <label>Gender:</label>
-                        </td>
-                        <td> 
-                            <label class="gend">  <input type="radio" name ="gender" value="Male"/>Male</label>
-                           <label class="gend"> <input type="radio" name ="gender" value="Female"/> Female</label>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                       <td class="right"> 
-                            <label>Age:</label>
-                        </td>
-                        <td> 
-                            <input type="text" name ="age" size="6" maxlength="3"/>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td class="right"> 
-                            <label> Personality type:</label>
-                        </td>
-                        <td> 
-                            <input type="text" name ="personality" size="6" maxlength="10"/><a href="http://www.humanmetrics.com/cgi-win/JTypes2.asp."><span>&nbsp;(Don't know your type?)</span></a>
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td> 
-                            <label> Favorite OS:</label>
-                        </td>
-                        <td class="right"> 
-                            <select name="favoriteos">
-                                
-                                <option>Mac OS X</option>
-                                <option selected>Windows</option>
-                                <option>Linux</option>
-                            </select>
-                    
-                        </td>
-                    </tr>
-                    
-                    <tr>
-                        <td class="right"> 
-                            <label>Seeking age:</label>
-                        </td>
-                        <td> 
-                            <input type="text" name ="minage" placeholder="min Age" size="6" maxlength="3"/>
-                            
-                            <input type="text" name ="maxage" placeholder="max Age" size="6" maxlength="3"/>
-                        </td>
-                    </tr>
-                    
-                    
-                    
-                    <tr>
-                        
-                        <td class="right" colspan="2"> 
-                            <input id="sub" type="submit" value="Sign Up"/>
-                           
-                        </td>
-                    </tr>
-                    
-                  
-                </table>  
-                  </fieldset>
-            </form>  
-    
-   
-        <p>
-            This page is for single nerds to meet and date each other!
-            Type in your personal information and wait for the nerdly luv to begin!
-            Thank <br/> you for using our site.
-        </p>
-        <hr/>
-    <span class="foot"> Results and page (C) Copyright NerdLuv Inc.</span><br/>
-                     <ul>
-				<li>
-					<a href="index.html">
-						<img src="images1/back.gif" alt="icon" />
-						Back to front page
-					</a>
-				</li>
-			</ul>
-    
-    
-    
-    <a href="http://validator.w3.org/check/referer">
-<img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
-alt="html validator"/>
-</a>
-        
-        <a href="http://jigsaw.w3.org/css-validator/check/referer">
-<img src=http://jigsaw.w3.org/css-validator/images/vcss
-alt="Valid CSS!"/>
-</a>
-       
+        <h1>Create an Account</h1>
+        <label>Account Name:</label>
+        <input type="text" name="name" id="nameAccount"/><br><br>
+        <label>Deposit:</label>
+        <input type="number" name="deposit" id="depositAccount"/><br><br>
+        <button name="create" id="createAccount" onclick="onCreateAccount();">create new Account</button><br><br>
+        <textarea rows="10" cols="90" id="mytextarea"></textarea>
     </body>
 </html>
