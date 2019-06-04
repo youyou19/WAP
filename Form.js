@@ -1,6 +1,6 @@
 
-var accountInfoList=[];
-var account=function(){
+  var accountInfoList=[];
+  var account=function(){
   var accountName;
   var accountDeposit;
   var name=function(){
