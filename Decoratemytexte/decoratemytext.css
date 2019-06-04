@@ -5,7 +5,7 @@ and open the template in the editor.
 */
 /* 
     Created on : Dec 8, 2018, 8:03:36 PM
-    Author     : Wilfrid Jules
+    Author     :Jules
 */
 
 body {
@@ -35,5 +35,6 @@ legend {
 textarea {
 	font-family: monospace;
 	font-size: 12pt;
+	text-decoration:underline;
 }
 

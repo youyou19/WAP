@@ -19,15 +19,19 @@
 		<!-- Your UI controls go here -->
                 <fieldset>
                     <legend> Text</legend>
-                    <textarea rows="4" cols="30" id="text" ></textarea>
+                    <textarea rows="4" cols="30" id="textarea" >
+					text1
+					text2
+					
+					</textarea>
                 </fieldset>
                 <fieldset>
                     <legend>Decoration</legend>
-                    <button id="bigger" onclick="enlargeText()" > Bigger decoration</button><br>
-                    <input  id="bling" type="checkbox"  onchange="blingText()" /> Bling
-                    <br>
-                    <button  id="igapy">Igpay Atinlay</button><br>
-                    <button id="malkovitch">Malkovitch</button>
+                    <button id="textarea" onclick="changeInterval();" > Bigger decoration</button><br>
+                   <!-- <input  id="bling" type="checkbox"  name"onchange"  value ="" onclick="mydeco()" id="textt" /> Bling-->
+                   <input   type="checkbox"  name="onchange" value="" onclick="blingText();" id="te"/> Bling
+					<br>
+                   
                     
                     
                 </fieldset>

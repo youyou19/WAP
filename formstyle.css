@@ -1,0 +1,53 @@
+
+.signup{
+    margin-top: 80px;
+    font-family: Trebuchet;
+    background-color:rgb(218,222,255);
+    font-size: 12px;
+    width: 350px;
+    height:200px;
+    border-bottom: 1px solid black;
+    border-right:1px solid black; 
+    border-top: 0px none transparent;
+    border-left:0px none transparent; 
+    border-radius: 10px;
+    
+}
+legend{
+    background-color: white;
+}
+.right{
+    margin-right: 100px;
+   padding-right: 22px;
+}
+span{
+    color:  #ff9999 ;
+}
+
+#sub{
+    background-color: pink ;
+    font-weight: bold;
+}
+a{text-decoration: none;}
+label{
+    font-weight:bold;
+}
+.gend{
+    font-weight: normal;
+}
+.foot{
+    color:black;
+    font-size: 12pt;
+}
+.foot1{
+    font-size: 12pt;
+    color: red;
+}
+ul{
+     list-style-type: none;
+         padding-left: 0em;
+}
+ul li a img{
+    vertical-align: middle;
+}
+ 
