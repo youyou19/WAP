@@ -84,7 +84,6 @@ function shuffle(){
 		for (let i = max; i >= 0; i--) {
 			elements[i] = getElement(positions[i]);
 		}
-
 		setPosition(elements[idx],{positionX:wX, positionY: wY});
 		setWBPosition(positions[idx]);
 	}
