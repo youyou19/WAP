@@ -6,7 +6,7 @@ $(document).ready(function () {
         toucheWall = true;
         if (isStart) {
             $("div.boundary").addClass('youlose');
-            $("#status").text("Sorry you Lost :( Click the " + "S" + " to begin."));
+            $("#status").text("Sorry you Lost :( Click the " + "S" + " to begin.");
         }
     });
 
